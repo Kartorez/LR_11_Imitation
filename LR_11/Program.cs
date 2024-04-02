@@ -22,10 +22,10 @@ namespace LR_11
             circle.Scale(2);
             Console.WriteLine($"Радіус кола після масштабування {circle.Radius}");
 
-            Triangle triangle = new Triangle(20,40);
-            Console.WriteLine($"висота прямокутника  {triangle.Height} Ширина прямокутника {triangle.Width}");
+            Rectangle rectangle = new Triangle(20,40);
+            Console.WriteLine($"висота прямокутника  {rectangle.Height} Ширина прямокутника {rectangle.Width}");
             triangle.Scale(3);
-            Console.WriteLine($"Після масштабування висота прямокутника  {triangle.Height} Ширина прямокутника {triangle.Width}");
+            Console.WriteLine($"Після масштабування висота прямокутника  {rectangle.Height} Ширина прямокутника {rectangle.Width}");
             Console.ReadLine();
 
         }
