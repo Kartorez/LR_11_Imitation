@@ -6,12 +6,12 @@ using System.Threading.Tasks;
 
 namespace LR_11
 {
-    internal class Triangle:IScalable
+    internal class Rectangle:IScalable
     {
         public double Width;
         public double Height;
 
-        public Triangle(double width, double height)
+        public Rectangle(double width, double height)
         {
             Width = width;
             Height = height;
